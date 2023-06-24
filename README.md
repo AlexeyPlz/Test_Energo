@@ -2,7 +2,7 @@
 ## Автор
 - [AlexeyPlz](https://github.com/AlexeyPlz)
 ## Проверка проекта
-[![Codestyle](https://github.com/AlexeyPlz/Testing_Project/actions/workflows/codestyle.yml/badge.svg)](https://github.com/AlexeyPlz/Testing_Project/actions/workflows/codestyle.yml)
+[![codestyle](https://github.com/AlexeyPlz/Test_Project/actions/workflows/codestyle.yml/badge.svg)](https://github.com/AlexeyPlz/Test_Project/actions/workflows/codestyle.yml)
 ## Стек
 - Python 3.10
 - FastAPI 0.98
