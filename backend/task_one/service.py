@@ -2,8 +2,8 @@ import math
 from typing import Optional
 
 from fastapi import Depends
-from backend.task_one.models import QuadraticEquation
 
+from backend.task_one.models import QuadraticEquation
 from backend.task_one.repository import QuadraticEquationRepository
 from backend.task_one.request_schemas import QuadraticEquationCreateRequest
 
