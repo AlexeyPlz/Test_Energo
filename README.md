@@ -2,8 +2,8 @@
 ## Автор
 - [AlexeyPlz](https://github.com/AlexeyPlz)
 ## Проверка проекта
-[![Flake8](https://github.com/AlexeyPlz/Test_Project/actions/workflows/codestyle.yml/badge.svg)](https://github.com/AlexeyPlz/Test_Project/actions/workflows/codestyle.yml)
-[![Pytest](https://github.com/AlexeyPlz/Test_Project/actions/workflows/test.yml/badge.svg)](https://github.com/AlexeyPlz/Test_Project/actions/workflows/test.yml)
+[![Flake8](https://github.com/AlexeyPlz/Test_Project/actions/workflows/codestyle.yml/badge.svg?event=push)](https://github.com/AlexeyPlz/Test_Project/actions/workflows/codestyle.yml)
+[![Pytest](https://github.com/AlexeyPlz/Test_Project/actions/workflows/test.yml/badge.svg?event=push)](https://github.com/AlexeyPlz/Test_Project/actions/workflows/test.yml)
 ## Стек
 - Python 3.10
 - FastAPI 0.98
