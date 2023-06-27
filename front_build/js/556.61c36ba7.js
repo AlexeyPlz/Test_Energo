@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkfront_crm"]=self["webpackChunkfront_crm"]||[]).push([[556],{4556:function(n,r,c){c.r(r),c.d(r,{default:function(){return f}});var t=c(3396);const e={class:"main-block"};function a(n,r){return(0,t.wg)(),(0,t.iD)("div",e)}var s=c(89);const u={},o=(0,s.Z)(u,[["render",a],["__scopeId","data-v-8b90c20e"]]);var f=o}}]);
+//# sourceMappingURL=556.61c36ba7.js.map
