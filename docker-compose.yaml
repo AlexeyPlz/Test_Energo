@@ -1,0 +1,46 @@
+version: '3.3'
+
+volumes:
+  postgres_data:
+
+services:
+  db:
+    image: postgres:13.2
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    ports:
+      - "5432:5432"
+    env_file:
+      - .env.example
+
+  backend:
+    build: .
+    depends_on:
+      - db
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env.example
+
+  frontend:
+    build: './frontend'
+    depends_on:
+      - backend
+    volumes:
+      - ./front_build/:/app/result_build/
+    ports:
+      - "8001:8001"
+    env_file:
+      - .env.example
+
+  nginx:
+    image: nginx:1.23.2-alpine
+    depends_on:
+      - backend
+    volumes:
+      - ./front_build/:/usr/share/nginx/html/
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    ports:
+      - "80:80"
+    env_file:
+      - .env.example

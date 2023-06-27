@@ -1,10 +1,10 @@
 import json
 
 from httpx import AsyncClient
+
 from backend.task_one.repository import QuadraticEquationRepository
 from backend.task_one.request_schemas import QuadraticEquationCreateRequest
 from backend.task_one.service import QuadraticEquationService
-
 from backend.task_two.service import ColoredObjectsService
 from tests.conftest import async_session_test
 

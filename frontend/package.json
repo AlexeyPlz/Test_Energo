@@ -1,0 +1,72 @@
+{
+  "name": "front_crm",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@vavt/md-editor-extension": "^2.0.0",
+    "@vueuse/motion": "^2.0.0-beta.12",
+    "axios": "^1.4.0",
+    "core-js": "^3.8.3",
+    "js-cookie": "^3.0.5",
+    "md-editor-v3": "^2.11.0",
+    "sweetalert": "^2.1.2",
+    "vee-validate": "^4.8.6",
+    "vue": "^3.2.13",
+    "vue-cookie": "^1.1.4",
+    "vue-cookie-next": "^1.3.0",
+    "vue-cookies": "^1.8.3",
+    "vue-quill-editor": "^3.0.6",
+    "vue-router": "^4.1.6",
+    "vue3-cookies": "^1.0.6",
+    "vuedraggable": "^2.24.3",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@types/marked": "^4.0.8",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/eslint-config-standard": "^6.1.0",
+    "case-sensitive-paths-webpack-plugin": "^2.4.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "lint-staged": "^11.1.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "@vue/standard"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,vue}": "vue-cli-service lint"
+  }
+}

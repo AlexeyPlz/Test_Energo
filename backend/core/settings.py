@@ -17,7 +17,7 @@ class Settings(BaseSettings):
     # Параметры для проекта
     DEBUG: bool = False
     SECRET_KEY: str = str(uuid.uuid4())
-    ROOT_PATH: str = ""
+    ROOT_PATH: str
 
     @property
     def database_url(self) -> str:
