@@ -43,7 +43,7 @@ sudo docker-compose up -d
 ```
 Проведите миграции:
 ```bash
-sudo docker exec test_project_backend_1 alembic upgrade head
+sudo docker exec test_energo_backend_1 alembic upgrade head
 ```
 Если есть проблема с фронтом, то необходимо удалить "front_build" и пересобрать зависимости:
 ```bash
