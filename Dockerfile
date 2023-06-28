@@ -1,7 +1,7 @@
 FROM python:3.10-slim
 RUN apt-get update
 RUN apt-get -y install gcc
-WORKDIR /Test_Project
+WORKDIR /Test_Energo
 COPY . .
 RUN python -m pip install --upgrade pip
 RUN pip install -r requirements.txt
