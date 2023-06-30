@@ -17,7 +17,7 @@
 - Pytest Asyncio 0.21
 - HTTPX 0.24.1
 - Aiosqlite 0.19
-- JavaScript ES5
+- JavaScript
 - Vue3
 ## Задания
 ### Задание №1
